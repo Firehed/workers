@@ -1,0 +1,27 @@
+{
+    "name": "firehed/workers",
+    "type": "library",
+    "require-dev": {
+        "phpstan/phpstan": "^0.7.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Stern",
+            "email": "eric@ericstern.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Firehed\\Workers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Firehed\\Workers\\": "tests/"
+        }
+    },
+    "require": {}
+}
