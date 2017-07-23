@@ -2,6 +2,8 @@
 
 A library to manage worker processes in a run loop.
 
+[![Build Status](https://travis-ci.org/Firehed/workers.svg?branch=master)](https://travis-ci.org/Firehed/workers)
+
 ## Worker Manager
 
 At the heart of any run loop is the Worker Manager.
